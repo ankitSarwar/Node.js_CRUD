@@ -28,5 +28,31 @@ step-4:
 open terminal and go to the root director and run the server file
 command for start server: `npm start`
 
+- mpm init
+- npm i express
+- npm i mongoose
+- npm i body-parser
+- npm i dotenv
+
+- npm install express mongoose body-parser dotenv
+ after create .env file
+
+ in package.json file add  "type": "module",
+
+ https://cloud.mongodb.com/v2/65a6749822314c33fc817e05#/metrics/replicaSet/65a674f00fa05a56a775dfe2/explorer/crud/users/find
+
+
+MONGO_URL="mongodb+srv://crud:tCBpTgqkCaSvLAYL@cluster0.hz1w1gj.mongodb.net/crud?retryWrites=true&w=majority"
+
+add password and database name 
+
+
+create script-
+edit test to start -  "start": "nodemon index.js"
+
+for run 
+- npm install --save-dev nodemon
+- npm start
+- node index.js or nodemon
 
 
