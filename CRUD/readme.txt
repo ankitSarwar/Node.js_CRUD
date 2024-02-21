@@ -28,7 +28,7 @@ step-4:
 open terminal and go to the root director and run the server file
 command for start server: `npm start`
 
-- mpm init
+- npm init
 - npm i express
 - npm i mongoose
 - npm i body-parser
